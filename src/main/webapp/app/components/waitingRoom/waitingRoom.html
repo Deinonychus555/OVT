@@ -9,7 +9,7 @@
             <h4 *ngIf="allAvaibleRoomsNames && allAvaibleRoomsNames.length === 0">There are no avaibles rooms yet</h4>
             <h4 *ngIf="allAvaibleRoomsNames && allAvaibleRoomsNames.length > 0">Select a room</h4>
         </div>
-        <button class="btn ovt-btn" *ngFor="#room of allAvaibleRoomsNames" (click)="joinRoom(room)">{{room}}</button><br><br>
+        <button class="btn ovt-btn" *ngFor="#room of allAvaibleRoomsNames" (click)="onJoinRoom(room)">{{room}}</button><br><br>
         <button class="btn ovt-btn"(click)="onLogOut()">Log out</button>
     </div>
 </div>

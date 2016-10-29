@@ -158,7 +158,8 @@
                                 <argument>install</argument>
                             </arguments>
 						</configuration>
-					</execution>
+					</execution> 
+                    
                 </executions>
 				
 			</plugin>
@@ -171,7 +172,7 @@
                         </fileset>
                         <fileset>
                             <directory>src/main/webapp/node_modules</directory>
-                        </fileset>
+                        </fileset> 
 					</filesets>
 				</configuration>
 			</plugin>
